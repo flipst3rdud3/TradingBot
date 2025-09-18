@@ -7,16 +7,16 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
-# Logs
+# Logs & models (big, local)
 logs/
-*.log
+models/
 
-# OS/editor clutter
+# OS/editor
 .DS_Store
 .vscode/
 .idea/
 
-# Data (don’t commit large/local datasets)
+# Data (local only)
 data/*.csv
 data/*.json
 data/*.parquet
@@ -24,4 +24,3 @@ data/*.parquet
 # Env files
 .env
 .env.*
-

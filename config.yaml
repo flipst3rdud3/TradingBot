@@ -1,0 +1,9 @@
+# config.yaml
+market: ES
+session: RTH
+risk:
+  daily_stop: 200
+  max_loss: 750
+  target_win_rate: 0.65
+  risk_reward: 1.5
+  
